@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Series.h
+iostream
+-
+
+/home/cristian/series/src/Series.cpp
+Series.h
+/home/cristian/series/src/Series.h
+
+/home/cristian/series/src/main.cpp
+Series.h
+/home/cristian/series/src/Series.h
+iostream
+-
+
